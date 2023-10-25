@@ -1,0 +1,31 @@
+/*iphone size 390*/
+@media screen and (min-width: 390px) and (max-width: 412px) {
+/*hamburger visibility*/
+.hamburger {
+    font-size: 22px;
+    
+}
+
+.hamburger-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: column;
+    width: auto ;
+    row-gap: .5em;
+
+}
+
+nav li {
+    display: flex;
+    width: auto;
+    font-size: 1.5em;
+    color: black;
+    padding: 1em 1em 1em 1em;
+    align-self: center;
+}
+       
+}
