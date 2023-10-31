@@ -1,31 +1,62 @@
 /*iphone size 390*/
 @media screen and (min-width: 390px) and (max-width: 412px) {
-/*hamburger visibility*/
+/*hamburger size*/
 .hamburger {
-    font-size: 22px;
-    
+  width: 0;
+  visibility: hidden;  /*overflow: hidden;*/
+  transition: visibility 0.8s, width 0.3s;
 }
 
+.bigger-header {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -300px;
+  transition: margin-top 0.4s ease-in-out; /* Transition effect */
+}
+
+.bigger-header.move-down {
+  margin-top: 15px; /* adjust this value based on the height of your menu */
+}
+.body-color {
+  background-color: rgb(169, 97, 97);
+}
+
+.nav-hidden {
+  width: 0;
+  visibility: hidden;
+}
+
+/*hamburger visibility*/
 .hamburger-icon {
-    font-size: 28px;
-    cursor: pointer;
-}
-
+  font-size: 28px;
+  cursor: pointer;
+  width: fit-content;
+  }
+  
 nav ul {
-    display:flex;
-    flex-direction: column;
-    width: auto ;
-    row-gap: .5em;
-
+  display:flex;
+  flex-direction: column;
+  align-items:self-start;
+  background-color: rgb(169, 97, 97);
+  row-gap: .5em;
+  padding-left: 5.5em;
 }
 
 nav li {
-    display: flex;
-    width: auto;
-    font-size: 1.5em;
-    color: black;
-    padding: 1em 1em 1em 1em;
-    align-self: center;
+  display: flex;
+  list-style: none;
+  font-size:  1.5em;
+  text-align: center;
+  color: black;
+  padding: 1em 1em 1em 1em;
 }
-       
+     
+.main-content {
+  margin: 1em 1em 1em 1em;
+}
+
+#about {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px black;
+}
 }
