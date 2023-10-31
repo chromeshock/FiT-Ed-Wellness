@@ -1,19 +1,3 @@
-/*// Toggle menu
-document.querySelector('.hamburger-icon').addEventListener('click', () => {
-  const hamburgerIcon = document.querySelector('.hamburger-icon');
-  const hamburger = document.querySelector('.hamburger');
-
-  // Toggle icon and menu visibility
-  if (hamburgerIcon.textContent === '☰') {
-    hamburgerIcon.textContent = '✖';
-    hamburger.style.width = '100%';  // Set width to 100% to display content
-    hamburger.style.padding = '100px'; // Set padding to
-  } else {
-    hamburgerIcon.textContent = '☰';
-    hamburger.style.display = 'none';  // Set width to 0 to hide content
-  }
-});*/
-
 
 document.querySelector('.hamburger-icon').addEventListener('click', () => {
   const hamburgerIcon = document.querySelector('.hamburger-icon');
