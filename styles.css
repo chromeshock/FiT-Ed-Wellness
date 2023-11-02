@@ -4,17 +4,21 @@
 .hamburger {
   width: 0;
   visibility: hidden;  /*overflow: hidden;*/
-transition: opacity 3s 0.1s, height 0.3s 0.1s; /* 0.3s delay */}
+  transition: opacity 6s 0.1s, height 1s 20s;  /* 0.3s delay */
+  }
+
 
 .bigger-header {
   font-size: 30px;
   text-align: center;
   margin-top: -300px;
-  transition: margin-top 0.3s ease-in-out;
 }
 
+/*header & child sections*/
 .bigger-header.move-down {
   margin-top: 15px; /* adjust this value based on the height of your menu */
+  transition: margin-top 0.1s ease-in-out;
+
 }
 .body-color {
   background-color: rgb(164, 146, 146);
@@ -54,13 +58,29 @@ nav li {
   margin: 1em 1em 1em 1em;
 }
 
+/*about section*/
 #about {
   background-color: rgb(255, 255, 255);
   border-top: solid 1px black;
   border-bottom: solid 1px black;
   width:100%;
-  margin: 0;
+  margin: 15em auto 15em auto;
   padding: 0 2px 0 2px;
   font-size: 18px;
+
+}
+
+#services td {
+  text-align: center;
+  /*border-top: solid 1px black;
+  border-bottom: solid 1px black;*/
+  border-top:solid 1px black;
+  width: auto;
+
+}
+
+table, th, td {
+  border:solid 1px black;
+  
 }
 }
