@@ -1,5 +1,4 @@
 
-
 document.querySelector('.hamburger-icon').addEventListener('click', () => {
   const hamburgerIcon = document.querySelector('.hamburger-icon');
   const hamburger = document.querySelector('.hamburger');
