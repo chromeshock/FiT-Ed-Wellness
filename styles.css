@@ -53,15 +53,21 @@ nav li {
 }
 
 /*about section*/
-#about {
+#about p {
   border-bottom: solid 1px black;
   width:100%;
-  margin: 15em auto 15em auto;
-  padding: 0 2px 0 2px;
+  margin: 5em auto 5em auto;
   font-size: 22px;
   text-align: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: bottom 0px 4px 8px rgba(0, 0, 0, 0.2);
 
+}
+
+
+.aligned-subHeader {
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #services, td, th  {
@@ -95,4 +101,6 @@ h1 {
 p {
   color: rgb(53, 53, 53);
 }
+
+
 } 
